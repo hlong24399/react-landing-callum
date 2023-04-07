@@ -7,6 +7,7 @@ import Portfolio from "./components/Portfolio";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Appointment from "./components/Appointment";
 import { useEffect, useState } from "react";
 import {
   appliedConfig,
@@ -126,6 +127,7 @@ function App() {
             <Resume></Resume>
             <Portfolio></Portfolio>
             <CallToAction></CallToAction>
+            <Appointment/>
             <FAQs></FAQs>
             <Testimonials></Testimonials>
             <Contact></Contact>
