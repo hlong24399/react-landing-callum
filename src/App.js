@@ -124,10 +124,10 @@ function App() {
 
             <AboutUs></AboutUs>
             <Services></Services>
-            <Resume></Resume>
-            <Portfolio></Portfolio>
+            {/* <Resume></Resume> */}
+            {/* <Portfolio></Portfolio> */}
             <CallToAction></CallToAction>
-            <Appointment/>
+            {/* <Appointment/> */}
             <FAQs></FAQs>
             <Testimonials></Testimonials>
             <Contact></Contact>

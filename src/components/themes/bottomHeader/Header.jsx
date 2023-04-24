@@ -101,7 +101,7 @@ const BottomHeader = () => {
                     Services
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -117,8 +117,9 @@ const BottomHeader = () => {
                   >
                     Resume
                   </Link>
-                </li>
-                <li className="nav-item">
+                </li> */}
+                
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -134,7 +135,8 @@ const BottomHeader = () => {
                   >
                     Portfolio
                   </Link>
-                </li>
+                </li> */}
+                
                 <li className="nav-item">
                   <Link
                     className="nav-link "

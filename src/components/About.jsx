@@ -8,7 +8,7 @@ const AboutUs = () => {
           <span className="bg-primary text-dark px-2">About Me</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-          Know Me More
+          Professional Tutoring Assistant
         </h2>
         {/* Heading end*/}
         <div className="row">
@@ -16,11 +16,11 @@ const AboutUs = () => {
             <h2 className="text-8 fw-400 mb-3">
               Hi, I'm{" "}
               <span className="fw-700 border-bottom border-3 border-primary">
-                Callum Smith
+                Bryan Nguyen
               </span>
             </h2>
             <p className="text-5">
-              I'm a designer &amp; developer with a passion for web design. I
+              I'm a designer &amp; developer with a  passion for web design. I
               enjoy developing simple, clean and slick websites that provide
               real value to the end user. Thousands of clients have procured
               exceptional results while working with me. Delivering work within
@@ -43,7 +43,7 @@ const AboutUs = () => {
             </div>
           </div>
         </div>
-        <div className="row gy-3 mt-4">
+        {/* <div className="row gy-3 mt-4">
           <div className="col-6 col-lg-3 wow fadeInUp">
             <p className="text-muted fw-500 mb-0">Name:</p>
             <p className="text-4 text-dark fw-600 mb-0">Callum Smith</p>
@@ -64,7 +64,7 @@ const AboutUs = () => {
             <p className="text-muted fw-500 mb-0">From:</p>
             <p className="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
