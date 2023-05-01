@@ -4,29 +4,29 @@ import Accordion from "react-bootstrap/Accordion";
 const FAQs = () => {
   const faqsData = [
     {
-      question: "What is Callum?",
+      question: "What subjects do you offer tutoring in?",
       answer:
-        "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.",
+        "I offer tutoring services in a range of subjects, including Data Structures, Mathematics, and Web Development. If you have a specific subject in mind, feel free to reach out and we can discuss further!",
     },
     {
-      question: "How Can I Help You?",
+      question: "What kind of experience do you have as a tutor?",
       answer:
-        "Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. <br /> Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.",
+        "I have several years of experience as a tutor, both in-person and online. I have worked with students of all ages and skill levels, and I am dedicated to resolve issues and reach students' goals.",
     },
     {
-      question: "Simple process for workflow?",
+      question: "What is your approach to teaching?",
       answer:
-        "Iisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.",
+        "I believe that each student learns differently, and I tailor my approach to meet the needs of each individual. I work closely with my students to identify areas of strength and weakness, and I create personalized lesson plans to help them proceed.",
     },
     {
-      question: "Is Callum a Multi-purpose template?",
+      question: "What can I expect from a tutoring session?",
       answer:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "During a tutoring session, we will work together to review material, complete practice problems, and reinforce concepts. I will provide guidance and support every step of the way, and I am always available to answer questions and provide additional resources.",
     },
     {
-      question: "Why responsive one page template?",
+      question: "How can I get started with your tutoring services?",
       answer:
-        "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.",
+        "Getting started is easy! You can contact me directly to discuss your needs and schedule a session. I look forward to working with you!",
     },
   ];
 

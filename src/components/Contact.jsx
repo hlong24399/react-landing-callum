@@ -57,18 +57,16 @@ const Contact = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
-            <h2 className="text-10 fw-600 mb-5">Let's get in touch</h2>
+            <h2 className="text-10 fw-600 mb-5">Get In Touch !</h2>
             <p className="text-5 mb-5">
-              I enjoy discussing new projects and design challenges. Please
-              share as much info, as possible so we can get the most out of our
-              first catch-up.
+            If you have any questions about my services, or if you'd like to schedule a consultation, please don't hesitate to reach out. You can use the contact form on this page to send me a message, and I'll get back to you as soon as possible.
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
-              30 Shacham street, Los Angeles, USA.
+              Irvine, California, United States.
             </address>
-            <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
+            <h3 className="text-5 fw-600">Direct Message:</h3>
+            <p className="text-4">+(760) 620-1605</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
@@ -132,7 +130,7 @@ const Contact = () => {
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Estimate your Project?
+              Something In Mind ?
             </h2>
             {/* Contact Form */}
             <form

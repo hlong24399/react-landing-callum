@@ -4,34 +4,34 @@ const Services = () => {
   // services details
   const services = [
     {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-palette",
+      name: "Data Structure",
+      desc: "Do you find data structures daunting? Fear not! Our data structure service offers friendly guidance and support to help you design and implement efficient data structures for your programs. We'll help you turn your data into a well-oiled machine!",
+      icon: "fas fa-cogs",
     },
     {
-      name: "Web Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Project Guidance",
+      desc: " Feeling overwhelmed by your project? Let me be your guide! My project guidance service provides a helping hand to ensure that your project stays on track and meets all of its goals. I'll help you plan, execute, and evaluate your project with confidence!",
       icon: "fas fa-desktop",
     },
     {
-      name: "UI/UX Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Bootcamp Assistance",
+      desc: "If you're currently enrolled in a bootcamp program, I'm here to help you succeed! My bootcamp assistance service offers personalized support to help you manage coursework, study effectively, and complete projects with ease. I'll be your cheerleader every step of the way!",
       icon: "fas fa-pencil-ruler",
     },
     {
-      name: "App Design & Develop",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-paint-brush",
+      name: "Web Developement",
+      desc: "Want to build a killer website or application? My web development service has got your back! I'll guide you through the ins and outs of front-end and back-end development, and help you design and deploy web-based applications that'll knock your users' socks off!",
+      icon: "fas fa-blog",
     },
     {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      name: "Exam Preparation",
+      desc: "Feeling stressed about an upcoming exam? Don't worry, I'm here to help! My exam preparation service offers a range of study resources and support to help you crush your exams with confidence. With my help, you'll be well on your way to achieving your academic and career goals!",
       icon: "fas fa-chart-area",
     },
     {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-bullhorn",
+      name: "Mathematics",
+      desc: "Are math problems giving you a headache? Fear not, I've got your back! My mathematics service provides friendly support and guidance to help you understand mathematical concepts and tackle complex problems. I'll help you master algebra, calculus, geometry, and beyond!",
+      icon: "fas fa-infinity",
     },
   ];
 

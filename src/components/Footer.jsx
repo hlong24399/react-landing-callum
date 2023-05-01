@@ -8,8 +8,8 @@ const Footer = () => {
           <div className="col-lg-6 text-center text-lg-start wow fadeInUp">
             <p className="mb-2 mb-lg-0">
               Copyright © 2023{" "}
-              <a className="fw-600" href="/">
-                Callum
+              <a className="fw-600" href="/https://github.com/hlong24399">
+                Bryan Nguyen
               </a>
               . All Rights Reserved.
             </p>
@@ -17,8 +17,8 @@ const Footer = () => {
           <div className="col-lg-6 wow fadeInUp">
             <p className="mb-0 text-center text-lg-end">
               Designed by{" "}
-              <a className="fw-600" href="https://www.harnishdesign.net/">
-                Harnish Design
+              <a className="fw-600" href="">
+                Anonymous
               </a>
             </p>
           </div>

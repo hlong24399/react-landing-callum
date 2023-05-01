@@ -20,11 +20,7 @@ const AboutUs = () => {
               </span>
             </h2>
             <p className="text-5">
-              I'm a designer &amp; developer with a  passion for web design. I
-              enjoy developing simple, clean and slick websites that provide
-              real value to the end user. Thousands of clients have procured
-              exceptional results while working with me. Delivering work within
-              time and budget which meets client’s requirements is our moto.
+              Hey there! I've been tutoring computer science and mathematics for over 6 years now. I've seen it all: from students pulling their hair out over tricky algorithms to parents begging for a miracle before their child's next calculus exam. I don't believe in boring lectures or dry textbook exercises. Instead, I use real-life examples, interactive challenges, and creative problem-solving exercises to make learning more engaging.
             </p>
           </div>
           <div
@@ -34,11 +30,11 @@ const AboutUs = () => {
             <div className="featured-box style-4">
               <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
                 <span className="wow heartBeat" data-wow-delay="1.3s">
-                  22
+                  6+
                 </span>
               </div>
               <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
-                Years of <span className="fw-700">Experiance</span>
+                Years of <span className="fw-700">Experience</span>
               </h3>
             </div>
           </div>

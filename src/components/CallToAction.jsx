@@ -23,9 +23,9 @@ const CallToAction = () => {
                 data-wow-delay="1s"
                 smooth="easeInOutQuint"
                 duration={scrollDuration}
-                to="contact"
+                to="/"
               >
-                Hire Me!
+                Coming Soon <i className="fas fa-arrow-right ml-2" />
               </Link>{" "}
             </div>
           </div>

@@ -1,88 +1,109 @@
-import React from "react";
+import React from 'react'
+import { Link } from 'react-scroll'
 
-import Slider from "react-slick";
+import Slider from 'react-slick'
 
 const Testimonials = () => {
-  const reviews = [
-    {
-      name: "Jay Shah",
-      position: "Founder at Icomatic Pvt Ltd",
-      src: "images/testimonial/client-sm-1.jpg",
-      desc: "“Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply dummy text of the printing and typesetting industry.”",
-    },
-    {
-      name: "Patrick Cary",
-      position: "Freelancer from USA",
-      src: "images/testimonial/client-sm-2.jpg",
-      desc: " “I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.”",
-    },
-    {
-      name: "Dennis Jacques",
-      position: "Noon Inc",
-      src: "images/testimonial/client-sm-3.jpg",
-      desc: "“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”",
-    },
-    {
-      name: "Chris Tom",
-      position: "User from UK",
-      src: "images/testimonial/client-sm-4.jpg",
-      desc: "“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. simply dummy text of the printing and typesetting industry. Excellent.”",
-    },
-  ];
+  // const reviews = [
+  //   {
+  //     name: "Jay Shah",
+  //     position: "Founder at Icomatic Pvt Ltd",
+  //     src: "images/testimonial/client-sm-1.jpg",
+  //     desc: "“Easy to use, reasonably priced simply dummy text of the printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam possim iriure. simply dummy text of the printing and typesetting industry.”",
+  //   },
+  //   {
+  //     name: "Patrick Cary",
+  //     position: "Freelancer from USA",
+  //     src: "images/testimonial/client-sm-2.jpg",
+  //     desc: " “I am happy Working with printing and typesetting industry. Quidam lisque persius interesset his et, in quot quidam persequeris essent possim iriure. simply dummy text of the printing and typesetting industry.”",
+  //   },
+  //   {
+  //     name: "Dennis Jacques",
+  //     position: "Noon Inc",
+  //     src: "images/testimonial/client-sm-3.jpg",
+  //     desc: "“Only trying it out since a few days. But up to now excellent. Seems to work flawlessly. priced simply dummy text of the printing and typesetting industry.”",
+  //   },
+  //   {
+  //     name: "Chris Tom",
+  //     position: "User from UK",
+  //     src: "images/testimonial/client-sm-4.jpg",
+  //     desc: "“I have used them twice now. Good rates, very efficient service and priced simply dummy text of the printing and typesetting industry quidam interesset his et. simply dummy text of the printing and typesetting industry. Excellent.”",
+  //   },
+  // ];
 
-  const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
-    <button
-      {...props}
-      className={
-        "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
-      }
-      aria-hidden="true"
-      aria-disabled={currentSlide === 0 ? true : false}
-      type="button"
-    >
-      <i className="fa fa-chevron-left"></i>
-    </button>
-  );
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
-    <button
-      {...props}
-      className={
-        "slick-next slick-arrow" +
-        (currentSlide === slideCount - 1 ? " slick-disabled" : "")
-      }
-      aria-hidden="true"
-      aria-disabled={currentSlide === slideCount - 1 ? true : false}
-      type="button"
-    >
-      <i className="fa fa-chevron-right"></i>
-    </button>
-  );
+  // const SlickArrowLeft = ({ currentSlide, slideCount, ...props }) => (
+  //   <button
+  //     {...props}
+  //     className={
+  //       "slick-prev slick-arrow" + (currentSlide === 0 ? " slick-disabled" : "")
+  //     }
+  //     aria-hidden="true"
+  //     aria-disabled={currentSlide === 0 ? true : false}
+  //     type="button"
+  //   >
+  //     <i className="fa fa-chevron-left"></i>
+  //   </button>
+  // );
+  // const SlickArrowRight = ({ currentSlide, slideCount, ...props }) => (
+  //   <button
+  //     {...props}
+  //     className={
+  //       "slick-next slick-arrow" +
+  //       (currentSlide === slideCount - 1 ? " slick-disabled" : "")
+  //     }
+  //     aria-hidden="true"
+  //     aria-disabled={currentSlide === slideCount - 1 ? true : false}
+  //     type="button"
+  //   >
+  //     <i className="fa fa-chevron-right"></i>
+  //   </button>
+  // );
 
-  var settings = {
-    dots: true,
-    arrows: true,
-    prevArrow: <SlickArrowLeft />,
-    nextArrow: <SlickArrowRight />,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 4500,
-  };
+  // var settings = {
+  //   dots: true,
+  //   arrows: true,
+  //   prevArrow: <SlickArrowLeft />,
+  //   nextArrow: <SlickArrowRight />,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   autoplaySpeed: 4500,
+  // };
 
   return (
-    <section id="testimonial" className="section bg-secondary">
-      <div className="container">
+    <section id='testimonial' className='section bg-secondary'>
+      <div className='container'>
         {/* Heading */}
-        <p className=" text-center mb-2 wow fadeIn">
-          <span className="bg-primary text-dark px-2">Client Speak</span>
+        <p className=' text-center mb-2 wow fadeIn'>
+          <span className='bg-primary text-dark px-2'>Client Speak</span>
         </p>
-        <h2 className="text-10 fw-600 text-white text-center mb-5 wow fadeIn">
-          What Some of my Clients Say
+        <h2 className='text-10 fw-600 text-white text-center mb-5 wow fadeIn'>
+           Testimonials can be fabricated, but reviews aren't.
         </h2>
+        <div className='container text-center py-5 wow fadeInUp'>
+          <a
+            className='btn btn-primary rounded-0 wow rubberBand mx-5'
+            data-wow-delay='1s'
+            href='https://www.superprof.com/junior-developer-with-experience-computer-science-tutoring-javascript-python-html-css-react-node-mongodb-heroku.html'
+            target='_blank'
+          >
+            <p>Reviews part 1</p>
+            <i className='fas fa-arrow-up ml-2' />
+          </a>
+          <a
+            className='btn btn-primary rounded-0 wow rubberBand mx-5'
+            data-wow-delay='1s'
+            href='https://www.superprof.com/junior-developer-and-also-have-experience-computer-science-tutoring-python-javascript-html-css-react-node-mongodb.html'
+            target='_blank'
+          >
+            <p>Reviews part 2</p>
+            <i className='fas fa-arrow-up ml-2' />
+          </a>
+        </div>
         {/* Heading end*/}
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-9 mx-auto wow fadeInUp">
             <Slider {...settings}>
               {reviews.length > 0 &&
@@ -106,10 +127,10 @@ const Testimonials = () => {
                 ))}
             </Slider>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Testimonials;
+export default Testimonials

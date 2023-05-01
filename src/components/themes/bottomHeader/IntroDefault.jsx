@@ -20,11 +20,10 @@ const BottomHeaderDefaultIntro = () => {
               />
             </div>
             <h2 className="text-10 text-uppercase fw-600 mb-4 wow fadeInUp">
-              Hello! I'm Callum Smith - Graphic Designer, Illustrator &amp; Art
-              Director.
+            Hi there, learners! I'm Bryan, and I'm here to support your learning goal.
             </h2>
             <p className="text-5 pb-3 wow fadeInUp">
-              based in Los Angeles, USA.
+              based in Irvine, CA.
             </p>
             <Link
               className="btn btn-dark rounded-0 smooth-scroll wow fadeInUp"
