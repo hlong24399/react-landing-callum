@@ -14,10 +14,10 @@ const Contact = () => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i8Fk3ms",
-        "template_siFcin9",
+        "service_omt40zd",
+        "template_c7np8ml",
         form.current,
-        "c9HsFgGF0tFWyVnAL"
+        "pIIadA-4xguQPilUV"
       )
       .then(
         (result) => {
@@ -68,7 +68,7 @@ const Contact = () => {
             <h3 className="text-5 fw-600">Direct Message:</h3>
             <p className="text-4">+(760) 620-1605</p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-              <li className="social-icons-twitter">
+              {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
                     href="https://twitter.com/harnishdesign/"
@@ -78,8 +78,8 @@ const Contact = () => {
                     <i className="fab fa-twitter" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
+              </li> */}
+              {/* <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="top">
                   <a
                     href="http://www.facebook.com/harnishdesign/"
@@ -89,8 +89,8 @@ const Contact = () => {
                     <i className="fab fa-facebook" />
                   </a>
                 </Tooltip>
-              </li>
-              <li className="social-icons-instagram">
+              </li> */}
+              {/* <li className="social-icons-instagram">
                 <Tooltip text="Instagram" placement="top">
                   <a
                     href="http://www.instagram.com/"
@@ -100,19 +100,19 @@ const Contact = () => {
                     <i className="fab fa-instagram" />
                   </a>
                 </Tooltip>
-              </li>
+              </li> */}
               <li className="social-icons-github">
                 <Tooltip text="Github" placement="top">
                   <a
                     href="http://www.github.com/"
-                    target="_blank"
+                    target="_blank" 
                     rel="noopener noreferrer"
                   >
                     <i className="fab fa-github" />
                   </a>
                 </Tooltip>
               </li>
-              <li className="social-icons-dribbble">
+              {/* <li className="social-icons-dribbble">
                 <Tooltip text="Dribbble" placement="top">
                   <a
                     href="http://www.dribbble.com/harnishdesign/"
@@ -122,7 +122,7 @@ const Contact = () => {
                     <i className="fab fa-dribbble" />
                   </a>
                 </Tooltip>
-              </li>
+              </li> */}
             </ul>
           </div>
           <div
@@ -143,7 +143,7 @@ const Contact = () => {
               <div className="row g-4">
                 <div className="col-12">
                   <label className="form-label" htmlFor="name">
-                    What is Your Name:
+                    What is Your Name
                   </label>
                   <input
                     id="name"
@@ -155,7 +155,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12">
                   <label className="form-label" htmlFor="email">
-                    Your Email Address:
+                    Your Email Address
                   </label>
                   <input
                     id="email"
@@ -167,7 +167,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12">
                   <label className="form-label" htmlFor="form-message">
-                    How can I Help you?:
+                    Your Message Here
                   </label>
                   <textarea
                     id="form-message"

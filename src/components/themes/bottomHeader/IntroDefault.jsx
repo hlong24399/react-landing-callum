@@ -14,7 +14,7 @@ const BottomHeaderDefaultIntro = () => {
             <div className="bg-white shadow rounded-pill p-2 mb-4 d-inline-block wow zoomIn">
               <img
                 className="img-fluid rounded-pill d-block"
-                src="images/web-developer-sm.jpg"
+                src="images/web-developer-sm.png"
                 title="I'm David"
                 alt="David"
               />

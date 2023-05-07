@@ -9,7 +9,7 @@ const BottomHeader = () => {
   return (
     <header id="header" className="sticky-top">
       {/* Navbar */}
-      <nav className="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600">
+      <nav className="primary-menu navbar navbar-expand-lg text-uppercase navbar-line-under-text fw-600 ">
         <div className="container position-relative">
           <div className="col-auto col-lg-2 d-inline-flex ps-lg-0">
             {/* Logo */}
@@ -29,7 +29,7 @@ const BottomHeader = () => {
             </Link>
             {/* Logo End */}
           </div>
-          <div className="col col-lg-8 navbar-accordion px-0">
+          <div className="col col-lg-10 navbar-accordion px-0">
             <button
               className={
                 "navbar-toggler ms-auto collapsed " +
@@ -191,7 +191,7 @@ const BottomHeader = () => {
               </ul>
             </div>
           </div>
-          <div className="col-auto col-lg-2 d-flex justify-content-end ps-0">
+          {/* <div className="col-auto col-lg-2 d-flex justify-content-end ps-0">
             <ul className="social-icons">
               <li className="social-icons-facebook">
                 <Tooltip text="Facebook" placement="bottom">
@@ -227,7 +227,7 @@ const BottomHeader = () => {
                 </Tooltip>
               </li>
             </ul>
-          </div>
+          </div> */}
         </div>
       </nav>
       {/* Navbar End */}
