@@ -64,12 +64,12 @@ function App() {
   if (typeof window !== "undefined") {
     window.addEventListener("scroll", checkScrollTop);
   }
-
+  
   const getHeader = () => {
-    if (appliedTheme === themeConfig.BottomHeader) {
+    if (appliedTheme  === themeConfig.BottomHeader) {
       return <BottomHeader></BottomHeader>;
     } else if (appliedTheme === themeConfig.FullScreenMenu) {
-      return (
+      return ( 
         <FullScreenHeader
           textWhite={appliedIntro === introBackgroundConfig.image}
         ></FullScreenHeader>
@@ -79,7 +79,7 @@ function App() {
     }
   };
 
-  const getBottomHeaderIntro = () => {
+  const getBottomHeaderIntro = () => {  
     if (appliedIntro === introBackgroundConfig.default) {
       return <BottomHeaderDefaultIntro></BottomHeaderDefaultIntro>;
     } else if (appliedIntro === introBackgroundConfig.image) {
