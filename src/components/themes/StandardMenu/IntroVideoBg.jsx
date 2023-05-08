@@ -1,5 +1,5 @@
 import React from "react";
-import videobg from "../../../videos/home.mp4";
+// import videobg from "../../../videos/home.mp4";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
@@ -10,7 +10,7 @@ const StandardMenuVideoBgIntro = () => {
       <div className="hero-wrap">
         <div className="hero-mask opacity-8 bg-primary" />
         <div className="player hero-bg ">
-          <video
+          {/* <video
             src={videobg}
             autoPlay
             muted
@@ -21,7 +21,7 @@ const StandardMenuVideoBgIntro = () => {
               minHeight: "100%",
               objectFit: "cover",
             }}
-          ></video>
+          ></video> */}
         </div>
         <div className="hero-content d-flex fullscreen-with-header">
           <div className="container my-auto py-5 py-lg-0">

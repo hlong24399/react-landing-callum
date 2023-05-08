@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { scrollDuration } from "../../../config/commonConfig";
-import videobg from "../../../videos/home.mp4";
+// import videobg from "../../../videos/home.mp4";
 
 const BottomHeaderVideoBgIntro = () => {
   return (
@@ -9,7 +9,7 @@ const BottomHeaderVideoBgIntro = () => {
       <div className="hero-wrap">
         <div className="hero-mask opacity-8 bg-primary" />
         <div className="player hero-bg">
-          <video
+          {/* <video
             src={videobg}
             autoPlay
             muted
@@ -20,7 +20,7 @@ const BottomHeaderVideoBgIntro = () => {
               minHeight: "100%",
               objectFit: "cover",
             }}
-          ></video>
+          ></video> */}
         </div>
         <div className="hero-content d-flex flex-column fullscreen py-5">
           <div className="container my-auto">
