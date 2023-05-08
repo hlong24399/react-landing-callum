@@ -25,7 +25,7 @@ const BottomHeader = () => {
                 setIsNavModalClose(true);
               }}
             >
-              <img src="images/logo.png" alt="Callum" />
+              <img src="images/logo.png" alt="Callum" style={{"width": "250px", "height" : "auto", "padding": "0px 0px"}} />
             </Link>
             {/* Logo End */}
           </div>
