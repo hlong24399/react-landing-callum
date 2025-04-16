@@ -8,7 +8,7 @@ const AboutUs = () => {
           <span className="bg-primary text-dark px-2">About Me</span>
         </p>
         <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-          Professional Tutoring Assistant
+          Professional Tutoring Service
         </h2>
         {/* Heading end*/}
         <div className="row">
@@ -20,14 +20,16 @@ const AboutUs = () => {
               </span>
             </h2>
             <p className="text-5">
-              Hey there! I've been tutoring computer science and mathematics for over 6 years now. I've seen it all: from students pulling their hair out over tricky algorithms to parents begging for a miracle before their child's next calculus exam. I don't believe in boring lectures or dry textbook exercises. Instead, I use real-life examples, interactive challenges, and creative problem-solving exercises to make learning more engaging.
+            <br></br>
+            Hello! I’m a dedicated tutor with over 6 years of experience in computer science and mathematics. 
+            <hr></hr> Throughout my career, I’ve worked with students facing a wide range of challenges—from navigating complex algorithms to preparing for high-stakes calculus exams. My teaching approach moves beyond traditional lectures and textbook drills. <hr></hr> I focus on real-world applications, interactive problem-solving, and personalized strategies to make learning both effective and engaging.
             </p>
           </div>
           <div
             className="col-lg-4 mt-4 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.2s"
           >
-            <div className="featured-box style-4">
+            <div className="featured-box style-4 pt-0 md:pt-[40%!important]">
               <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
                 <span className="wow heartBeat" data-wow-delay="1.3s">
                   6+

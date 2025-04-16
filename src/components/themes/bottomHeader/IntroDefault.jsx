@@ -15,8 +15,8 @@ const BottomHeaderDefaultIntro = () => {
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/web-developer-sm.png"
-                title="I'm David"
-                alt="David"
+                title="Personal Photo"
+                alt="Personal Photo"
               />
             </div>
             <h2 className="text-10 text-uppercase fw-600 mb-4 wow fadeInUp">

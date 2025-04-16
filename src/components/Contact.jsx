@@ -66,7 +66,7 @@ const Contact = () => {
               Irvine, California, United States.
             </address>
             <h3 className="text-5 fw-600">Direct Message:</h3>
-            <p className="text-4">+(760) 620-1605</p>
+            <p className="text-4" > <a style={{"color" : "black"}} href="tel:657-456-4234"> +(657) 456-4234 </a></p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
@@ -130,7 +130,7 @@ const Contact = () => {
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Something In Mind ?
+              Send Me A Message
             </h2>
             {/* Contact Form */}
             <form
@@ -167,7 +167,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12">
                   <label className="form-label" htmlFor="form-message">
-                    Your Message Here
+                    Your Message
                   </label>
                   <textarea
                     id="form-message"

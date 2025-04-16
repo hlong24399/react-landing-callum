@@ -80,13 +80,13 @@ const Testimonials = () => {
           <span className='bg-primary text-dark px-2'>Client Speak</span>
         </p>
         <h2 className='text-10 fw-600 text-white text-center mb-5 wow fadeIn'>
-           Testimonials can be fabricated, but reviews aren't.
+           What My Students Say About Lessons With Me!
         </h2>
         <div className='container text-center py-5 wow fadeInUp'>
           <a
             className='btn btn-primary rounded-0 wow rubberBand mx-5'
             data-wow-delay='1s'
-            href='https://www.superprof.com/junior-developer-with-experience-computer-science-tutoring-javascript-python-html-css-react-node-mongodb-heroku.html'
+            href='https://www.superprof.com/tutor-developer-with-years-experience-tutoring-html-javascript-react-mongodb-node-python-sql-computer-science.html'
             target='_blank'
           >
             <p>Reviews part 1</p>
@@ -95,10 +95,19 @@ const Testimonials = () => {
           <a
             className='btn btn-primary rounded-0 wow rubberBand mx-5'
             data-wow-delay='1s'
-            href='https://www.superprof.com/junior-developer-and-also-have-experience-computer-science-tutoring-python-javascript-html-css-react-node-mongodb.html'
+            href='https://www.superprof.com/tutor-developer-with-years-experience-tutoring-javascript-react-node-python-sql-computer-programming.html'
             target='_blank'
           >
             <p>Reviews part 2</p>
+            <i className='fas fa-arrow-up ml-2' />
+          </a>
+          <a
+            className='btn btn-primary rounded-0 wow rubberBand mx-5'
+            data-wow-delay='1s'
+            href='https://www.superprof.com/math-statistics-assistant-including-algebra-calculus-pre-calculus-trigonometry-geometry-with-more-than-years-experience.html'
+            target='_blank'
+          >
+            <p>Reviews part 3</p>
             <i className='fas fa-arrow-up ml-2' />
           </a>
         </div>

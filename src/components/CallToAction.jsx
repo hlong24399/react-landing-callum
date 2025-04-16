@@ -16,7 +16,7 @@ const CallToAction = () => {
           <div className="hero-content section">
             <div className="container text-center py-5 wow fadeInUp">
               <h2 className="text-10 fw-600 text-white mb-5">
-                Interested in working with me?
+                Interested in working together?
               </h2>
               <Link
                 className="btn btn-primary rounded-0 smooth-scroll wow rubberBand"
