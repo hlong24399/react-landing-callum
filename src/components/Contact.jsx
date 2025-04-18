@@ -59,14 +59,17 @@ const Contact = () => {
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
             <h2 className="text-10 fw-600 mb-5">Get In Touch !</h2>
             <p className="text-5 mb-5">
-            If you have any questions about my services, or if you'd like to schedule a consultation, please don't hesitate to reach out. You can use the contact form on this page to send me a message, and I'll get back to you as soon as possible.
+            In order to progress to our next milestone, there will be evitable challenge along the way. If you are working on a task and feeling the need of assistance, feel free to message me anytime!
+            <br></br>
+            <br></br>
+            I am open to discuss prior to schedule our first meeting in order to see if I can assist you. 
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
               Irvine, California, United States.
             </address>
-            <h3 className="text-5 fw-600">Direct Message:</h3>
-            <p className="text-4" > <a style={{"color" : "black"}} href="tel:657-456-4234"> +(657) 456-4234 </a></p>
+            <h3 className="text-5 fw-600">Phone Number:</h3>
+            <p className="text-5" > <a style={{"color" : "black"}} href="tel:657-456-4234"> +(657) 456-4234 </a></p>
             <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               {/* <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
