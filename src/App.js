@@ -9,6 +9,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Appointment from "./components/Appointment";
 import { useEffect, useState } from "react";
+import "animate.css/animate.min.css";
 import {
   appliedConfig,
   introBackgroundConfig,
